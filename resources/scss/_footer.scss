@@ -1,0 +1,35 @@
+footer{
+    .mt{
+        margin-top: 2rem;
+    
+    }
+    .jumbotron{
+        color: $white;
+        background-image: url(../img/footer-bg.jpg);
+        height: 350px;
+    }
+    .row {
+        display: flex;
+    }
+    .col {
+        width: 50%;
+        display: flex;
+        div{
+            margin-right: 15px;
+        }
+    }
+    img{
+        height: 350px;
+    }
+    ul{
+        margin-top: 10px;
+        li {
+           list-style-type: none; 
+           
+           a {
+            color: $grey;
+            font-size: xx-small;
+           }
+        }
+    }
+}
