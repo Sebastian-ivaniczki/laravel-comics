@@ -39,10 +39,12 @@
         <div class="content">
             <div class="container">
                 <div class="card-container">
-                    <div class="card">
-                        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
-                        <h4>title</h4>
-                    </div>
+                    @foreach ($comics as $comic)
+                        <div class="card">
+                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                            <h4>{{ $comic['title'] }}</h4>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
