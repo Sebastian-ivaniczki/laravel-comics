@@ -1,9 +1,20 @@
 .hero{
     height: 400px;
+    position: relative;
     img{
         object-fit: cover;
         height: 100%;
         display: block;
         width: 100%;
+    }
+    button{
+        position: absolute;
+        bottom: -18px;
+        left: 164px;
+        padding: 0.5rem;
+        color: $white;
+        background-color: $blue;
+        border: none;
+        font-size: large;
     }
 }

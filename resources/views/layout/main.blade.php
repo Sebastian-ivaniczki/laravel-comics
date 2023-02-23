@@ -15,6 +15,8 @@
     {{-- hearo --}}
     <div class="hero">
         <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
+
+        <button>CURRENT SERIE</button>
     </div>
 
     {{-- main --}}
