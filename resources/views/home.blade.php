@@ -32,6 +32,23 @@
             </div>
         </nav>
     </header>
+
+    {{-- main --}}
+
+    <main>
+        <div class="content">
+            <div class="container">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
+                        <h4>title</h4>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
