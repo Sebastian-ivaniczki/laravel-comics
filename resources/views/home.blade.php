@@ -47,7 +47,7 @@
             </div>
         </div>
     </main>
-
+    {{-- footer --}}
     <footer>
         <div class="jumbotron">
             <div class="container">
@@ -107,6 +107,31 @@
                     </div>
                     <div class="col">
                         <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- footer bottom --}}
+
+        <div class="footer-bottom">
+            <div class="foot">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-left">
+                            <button><a href="#">SIGN-UP NOW!</a></button>
+                        </div>
+                        <div class="col-right">
+                            <div>
+                                <h4>FOLLOW US</h4>
+                            </div>
+                            <figure>
+                                <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}">
+                                <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}">
+                                <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}">
+                                <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}">
+                                <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}">
+                            </figure>
+                        </div>
                     </div>
                 </div>
             </div>

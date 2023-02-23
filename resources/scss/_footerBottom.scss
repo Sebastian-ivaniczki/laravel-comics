@@ -1,0 +1,45 @@
+.footer-bottom{
+    .foot{
+        height: 135px;
+        background-color: $secondaryGray;
+    }
+    .container{
+        height: 100%;
+    }
+    .row{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .col-left {
+        width: 70%;
+    }
+    .col-right {
+        width: 30%;
+        color: $blue;
+        display: flex;
+        align-items: center;
+    }
+    button{
+        background-color: $secondaryGray;
+       
+    
+        a{
+            display: inline-block;
+            color: $white;
+            padding: 1rem;
+            border: 2px solid $blue;
+        }
+    }
+    figure{
+        display: flex;
+        margin-left: 15px;
+    
+       
+        img{
+            max-width: 100%;
+            height: auto;
+            margin-right: 15px;
+        }
+    }
+}
